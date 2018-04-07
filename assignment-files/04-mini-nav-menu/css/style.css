@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+
+.container {
+  max-width:30%;
+   padding-right: 1%;
+}
+
+.menu-list {
+
+    display: inline-block;
+    list-style-type: none;
+    font: normal 16px Helvetica;
+}
+
+li{
+	width: 100%;
+	border: solid #57606f;
+}
