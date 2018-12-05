@@ -1,3 +1,38 @@
-*{
-	box-sizing: border-box;
+body{
+	background-color:#FFFFFF;
+
+}
+section{
+	width:50%;
+	height:100%;
+	margin:auto;
+	padding-left:20%;
+	padding-right: 20%;
+	padding-bottom: 20%;
+	padding-top: 10%;
+	background-color:#ecf0f1;
+
+}
+span{
+	background-color:#2f3640;
+	color: #FFFFFF;
+}
+h1{
+	margin-right: 20%;
+	color: #2f3542;
+	font-style:italic, sans-serif;
+	line-height: 1.25;
+}
+.Tex{
+width:70%;
+font-style: italic, sans-serif;
+font-size: 16px:
+color:#1e272e;
+line-height: 1.25;
+}
+.tex-none{
+	 text-decoration: none;
+}
+a:hover{
+	 color: hotpink;
 }

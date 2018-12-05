@@ -1,3 +1,25 @@
 *{
 	box-sizing: border-box;
+
+}
+.flex-container {
+  display: flex;
+	font: Helvetica;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  /* margin: 10px; */
+  /* padding: 20px; */
+
+}
+h3{
+	background-color: #004;
+	padding: 4%;
+	width: 100%;
+	color: white;
+}
+p{
+	padding-left: 7%;
+	padding-right: 7%;
 }

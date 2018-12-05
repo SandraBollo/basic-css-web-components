@@ -1,36 +1,40 @@
-*{
-	box-sizing: border-box;
+
+
+body {
+    background-color: white;
 }
 
-h1{
-	font-family: Futura, Trebuchet MS, Arial, sans-serif;
-	color: #2f3542
+.container {
+  max-width:20%;
 }
 
-button{
-	background-color:
- 	rgb(205,92,92);
-	color:#FFFFFF;
-	padding-top:10px;
-	padding-bottom:10px;
-	border: 2px solid rgb(205,92,92);
-	 margin:1%;
-}
-.tex-center{
-	text-align: center;
-	font-family: Futura, Trebuchet MS, Arial, sans-serif;
-	color: #747d8c;
-}
-button:hover {
-    background-color: #f44336;
-    color: white;
-}
-input{
+.menu-list {
 
-	width: 20%;
- padding: 12px 20px;
- margin-left: 30%;
- box-sizing: border-box;
- border: none;
- border-bottom: 2px solid #747d8c;
+    /* display: inline-block; */
+		/* text-align: center; */
+    list-style-type: none;
+    font: normal 16px Avenir;
+
+}
+
+li {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 13%;
+	border:1px solid #CDD6D5;
+
+
+}
+a{
+
+	text-decoration: none;
+	color: #515454;
+}
+.colorVerde{
+	color: #66cc99;
+}
+a :hover{
+	color:#66cc99;
+
+
 }
